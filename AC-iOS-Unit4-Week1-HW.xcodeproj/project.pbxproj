@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		54F137DD1FE302CD00EA22AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F137DC1FE302CD00EA22AA /* AppDelegate.swift */; };
-		54F137DF1FE302CD00EA22AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F137DE1FE302CD00EA22AA /* ViewController.swift */; };
+		54F137DF1FE302CD00EA22AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F137DE1FE302CD00EA22AA /* SettingsViewController.swift */; };
 		54F137E21FE302CD00EA22AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F137E01FE302CD00EA22AA /* Main.storyboard */; };
 		54F137E41FE302CE00EA22AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F137E31FE302CE00EA22AA /* Assets.xcassets */; };
 		54F137E71FE302CE00EA22AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F137E51FE302CE00EA22AA /* LaunchScreen.storyboard */; };
+		81003C741FE4919E00FFAB60 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81003C731FE4915800FFAB60 /* CaviarDreams.ttf */; };
+		810662111FE4C0D400161BDB /* GoogleBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810662101FE4C0D400161BDB /* GoogleBooks.swift */; };
+		8175D2B41FE35B5300FEB456 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D2B31FE35B5300FEB456 /* NetworkHelper.swift */; };
+		8175D2B71FE35BD600FEB456 /* BestSellers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D2B61FE35BD600FEB456 /* BestSellers.swift */; };
+		8175D2B91FE35C6300FEB456 /* Category .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D2B81FE35C6300FEB456 /* Category .swift */; };
+		818A03991FE49AD500BB7F36 /* BestSellersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A03981FE49AD500BB7F36 /* BestSellersViewController.swift */; };
+		81F6CAA01FE5FB4700781F72 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6CA9F1FE5FB4700781F72 /* FavoritesViewController.swift */; };
+		81F6CAA21FE5FB5500781F72 /* DetailedBestSellerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6CAA11FE5FB5500781F72 /* DetailedBestSellerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54F137D91FE302CD00EA22AA /* AC-iOS-Unit4-Week1-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-Unit4-Week1-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F137DC1FE302CD00EA22AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54F137DE1FE302CD00EA22AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54F137DE1FE302CD00EA22AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		54F137E11FE302CD00EA22AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54F137E31FE302CE00EA22AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F137E61FE302CE00EA22AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F137E81FE302CE00EA22AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81003C731FE4915800FFAB60 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		810662101FE4C0D400161BDB /* GoogleBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooks.swift; sourceTree = "<group>"; };
+		8175D2B31FE35B5300FEB456 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8175D2B61FE35BD600FEB456 /* BestSellers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellers.swift; sourceTree = "<group>"; };
+		8175D2B81FE35C6300FEB456 /* Category .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category .swift"; sourceTree = "<group>"; };
+		818A03981FE49AD500BB7F36 /* BestSellersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersViewController.swift; sourceTree = "<group>"; };
+		81F6CA9F1FE5FB4700781F72 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		81F6CAA11FE5FB5500781F72 /* DetailedBestSellerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBestSellerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 		54F137D01FE302CD00EA22AA = {
 			isa = PBXGroup;
 			children = (
+				81003C731FE4915800FFAB60 /* CaviarDreams.ttf */,
 				54F137DB1FE302CD00EA22AA /* AC-iOS-Unit4-Week1-HW */,
 				54F137DA1FE302CD00EA22AA /* Products */,
 			);
@@ -54,14 +71,45 @@
 		54F137DB1FE302CD00EA22AA /* AC-iOS-Unit4-Week1-HW */ = {
 			isa = PBXGroup;
 			children = (
-				54F137DC1FE302CD00EA22AA /* AppDelegate.swift */,
-				54F137DE1FE302CD00EA22AA /* ViewController.swift */,
+				8175D2B51FE35B6700FEB456 /* Supporting Files */,
+				81003C701FE46A2700FFAB60 /* View Controllers */,
+				8175D2B31FE35B5300FEB456 /* NetworkHelper.swift */,
+				81003C711FE46A3600FFAB60 /* Models */,
 				54F137E01FE302CD00EA22AA /* Main.storyboard */,
-				54F137E31FE302CE00EA22AA /* Assets.xcassets */,
-				54F137E51FE302CE00EA22AA /* LaunchScreen.storyboard */,
 				54F137E81FE302CE00EA22AA /* Info.plist */,
 			);
 			path = "AC-iOS-Unit4-Week1-HW";
+			sourceTree = "<group>";
+		};
+		81003C701FE46A2700FFAB60 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54F137DE1FE302CD00EA22AA /* SettingsViewController.swift */,
+				818A03981FE49AD500BB7F36 /* BestSellersViewController.swift */,
+				81F6CAA11FE5FB5500781F72 /* DetailedBestSellerViewController.swift */,
+				81F6CA9F1FE5FB4700781F72 /* FavoritesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		81003C711FE46A3600FFAB60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8175D2B81FE35C6300FEB456 /* Category .swift */,
+				8175D2B61FE35BD600FEB456 /* BestSellers.swift */,
+				810662101FE4C0D400161BDB /* GoogleBooks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8175D2B51FE35B6700FEB456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F137DC1FE302CD00EA22AA /* AppDelegate.swift */,
+				54F137E31FE302CE00EA22AA /* Assets.xcassets */,
+				54F137E51FE302CE00EA22AA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81003C741FE4919E00FFAB60 /* CaviarDreams.ttf in Resources */,
 				54F137E71FE302CE00EA22AA /* LaunchScreen.storyboard in Resources */,
 				54F137E41FE302CE00EA22AA /* Assets.xcassets in Resources */,
 				54F137E21FE302CD00EA22AA /* Main.storyboard in Resources */,
@@ -136,7 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F137DF1FE302CD00EA22AA /* ViewController.swift in Sources */,
+				8175D2B91FE35C6300FEB456 /* Category .swift in Sources */,
+				810662111FE4C0D400161BDB /* GoogleBooks.swift in Sources */,
+				81F6CAA01FE5FB4700781F72 /* FavoritesViewController.swift in Sources */,
+				818A03991FE49AD500BB7F36 /* BestSellersViewController.swift in Sources */,
+				8175D2B71FE35BD600FEB456 /* BestSellers.swift in Sources */,
+				81F6CAA21FE5FB5500781F72 /* DetailedBestSellerViewController.swift in Sources */,
+				54F137DF1FE302CD00EA22AA /* SettingsViewController.swift in Sources */,
+				8175D2B41FE35B5300FEB456 /* NetworkHelper.swift in Sources */,
 				54F137DD1FE302CD00EA22AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
