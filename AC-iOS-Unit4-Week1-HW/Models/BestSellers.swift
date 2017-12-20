@@ -17,7 +17,7 @@ struct BookDetails: Codable {
     let description: String
 }
 struct Books: Codable {
-    let weeks_on_list: Int
+    let weeks_on_list: Int?
     let list_name: String
     let book_details: [BookDetails]
 }
